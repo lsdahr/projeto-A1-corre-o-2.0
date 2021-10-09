@@ -41,7 +41,7 @@ export class LuisWalletService {
     this.updateBitCoinRates();
     setInterval(() => {
       this.updateBitCoinRates();
-      }, 10000);
+      }, 60000);
   }
 
   updateBitCoinRates(){
